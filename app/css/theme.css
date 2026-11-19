@@ -1,0 +1,33 @@
+/* Sunset Platinum — themes. "paper" is the light look, "night" the dark look. */
+:root, [data-theme="paper"] {
+  --page: #f6f3ee;
+  --surface: #ffffff;
+  --surface-muted: #efece5;
+  --ink: #1d2129;
+  --muted: #626a75;
+  --border: #ddd6c9;
+  --track: #e3ded2;
+  --accent: #d24e2a;
+  --accent-soft: rgba(210, 78, 42, 0.25);
+  --on-accent: #ffffff;
+  --medal-platinum: #d8e1ea;
+  --medal-gold: #d4af5a;
+  --medal-silver: #aeb6bf;
+  --medal-bronze: #b9784c;
+}
+[data-theme="night"] {
+  --page: #0f1218;
+  --surface: #171c24;
+  --surface-muted: #202634;
+  --ink: #edeae4;
+  --muted: #8e96a3;
+  --border: #2c3340;
+  --track: #262d3a;
+  --accent: #ff6b4a;
+  --accent-soft: rgba(255, 107, 74, 0.3);
+  --on-accent: #14100e;
+  --medal-platinum: #d8e1ea;
+  --medal-gold: #d4af5a;
+  --medal-silver: #c3c9cf;
+  --medal-bronze: #c98b5e;
+}
